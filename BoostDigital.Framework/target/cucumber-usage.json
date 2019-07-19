@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^user launches the Boost Digital application$",
+    "steps": [
+      {
+        "name": "user launches the Boost Digital application",
+        "aggregatedDurations": {
+          "average": 6.39427986,
+          "median": 6.39427986
+        },
+        "durations": [
+          {
+            "duration": 6.39427986,
+            "location": "BoostDigital_CreateNewProposal_SocialClic.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters the EPJ number$",
+    "steps": [
+      {
+        "name": "user enters the EPJ number",
+        "aggregatedDurations": {
+          "average": 5.162783843,
+          "median": 5.162783843
+        },
+        "durations": [
+          {
+            "duration": 5.162783843,
+            "location": "BoostDigital_CreateNewProposal_SocialClic.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters username and password$",
+    "steps": [
+      {
+        "name": "user enters username and password",
+        "aggregatedDurations": {
+          "average": 116.454993983,
+          "median": 116.454993983
+        },
+        "durations": [
+          {
+            "duration": 116.454993983,
+            "location": "BoostDigital_CreateNewProposal_SocialClic.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^EPJ entry screen is displayed$",
+    "steps": [
+      {
+        "name": "EPJ entry screen is displayed",
+        "aggregatedDurations": {
+          "average": 1.019470526,
+          "median": 1.019470526
+        },
+        "durations": [
+          {
+            "duration": 1.019470526,
+            "location": "BoostDigital_CreateNewProposal_SocialClic.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on connect$",
+    "steps": [
+      {
+        "name": "click on connect",
+        "aggregatedDurations": {
+          "average": 2.570874113,
+          "median": 2.570874113
+        },
+        "durations": [
+          {
+            "duration": 2.570874113,
+            "location": "BoostDigital_CreateNewProposal_SocialClic.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

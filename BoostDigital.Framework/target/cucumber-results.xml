@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="131.890959">
+<testcase classname="Boost Digital Create New Proposal Social Clic" name="Boost Digital Create New Proposal Social Clic" time="131.890959">
+<failure message="java.lang.AssertionError: Element not Clicked&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at helpers.CommonLibrary.isElementPresentVerifyClick(CommonLibrary.java:414)&#13;&#10;&#9;at step_definitions.BoostDigital_CreateNewProposal_SocialClic_Step.click_on_continue(BoostDigital_CreateNewProposal_SocialClic_Step.java:60)&#13;&#10;&#9;at ✽.And click on continue(BoostDigital_CreateNewProposal_SocialClic.feature:10)&#13;&#10;"><![CDATA[Given user launches the Boost Digital application...........................passed
+When user enters username and password......................................passed
+And click on connect........................................................passed
+And EPJ entry screen is displayed...........................................passed
+And user enters the EPJ number..............................................passed
+And click on continue.......................................................failed
+And user click on voir les propostions button in the dashboard screen.......skipped
+And click on add icon plus button...........................................skipped
+And select Creer une propostion vierge......................................skipped
+And enter name of proposal as test1.........................................skipped
+And click on Valider........................................................skipped
+And click on Social Clic in product list....................................skipped
+And click on configure product..............................................skipped
+And enter votre activitie as garage.........................................skipped
+And select the first one from the list......................................skipped
+And select a votre pack.....................................................skipped
+And click on calender icon for photos.......................................skipped
+And select a date...........................................................skipped
+And click on photos Heure...................................................skipped
+And select a time...........................................................skipped
+And click on arrow icon.....................................................skipped
+And enter mobile number.....................................................skipped
+And enter email address.....................................................skipped
+And enter web address.......................................................skipped
+And click on configure product completion...................................skipped
+And click on ok in the Social Clic attention pop up.........................skipped
+And click on quitter in catalogue screen....................................skipped
+And verify that the created proposal is shown in the propositions commerciales screen.skipped
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.AssertionError: Element not Clicked
+	at org.testng.Assert.fail(Assert.java:94)
+	at helpers.CommonLibrary.isElementPresentVerifyClick(CommonLibrary.java:414)
+	at step_definitions.BoostDigital_CreateNewProposal_SocialClic_Step.click_on_continue(BoostDigital_CreateNewProposal_SocialClic_Step.java:60)
+	at ✽.And click on continue(BoostDigital_CreateNewProposal_SocialClic.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,400 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 146869191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeClass()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Boost Digital Create New Proposal Social Clic",
+        "description": "",
+        "id": "boost-digital-create-new-proposal-social-clic;boost-digital-create-new-proposal-social-clic",
+        "after": [
+          {
+            "result": {
+              "duration": 26667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 252121,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6394279860,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the Boost Digital application",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.user_launches_the_Boost_Digital_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116454993983,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2570874113,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on connect",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_connect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019470526,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "EPJ entry screen is displayed",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.epj_entry_screen_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5162783843,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the EPJ number",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.user_enters_the_EPJ_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141358409,
+              "error_message": "java.lang.AssertionError: Element not Clicked\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat helpers.CommonLibrary.isElementPresentVerifyClick(CommonLibrary.java:414)\r\n\tat step_definitions.BoostDigital_CreateNewProposal_SocialClic_Step.click_on_continue(BoostDigital_CreateNewProposal_SocialClic_Step.java:60)\r\n\tat ✽.And click on continue(BoostDigital_CreateNewProposal_SocialClic.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "click on continue",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click on voir les propostions button in the dashboard screen",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.user_click_on_voir_les_propostions_button_in_the_dashboard_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on add icon plus button",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_add_icon_plus_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "select Creer une propostion vierge",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.select_Creer_une_propostion_vierge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "enter name of proposal as test1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.enter_name_of_proposal_as_test(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click on Valider",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_Valider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "click on Social Clic in product list",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_Social_Clic_in_product_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on configure product",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_configure_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "enter votre activitie as garage",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.enter_votre_activitie_as_garage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "select the first one from the list",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.select_the_first_one_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select a votre pack",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.select_a_votre_pack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click on calender icon for photos",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_calender_icon_for_photos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "select a date",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.select_a_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "click on photos Heure",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_photos_Heure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "select a time",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.select_a_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "click on arrow icon",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_arrow_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "enter mobile number",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.enter_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "enter email address",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.enter_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "enter web address",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.enter_web_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "click on configure product completion",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_configure_product_completion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "click on ok in the Social Clic attention pop up",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_ok_in_the_Social_Clic_attention_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "click on quitter in catalogue screen",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.click_on_quitter_in_catalogue_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify that the created proposal is shown in the propositions commerciales screen",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.verify_that_the_created_proposal_is_shown_in_the_propositions_commerciales_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "close the browser",
+            "match": {
+              "location": "BoostDigital_CreateNewProposal_SocialClic_Step.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Boost Digital Create New Proposal Social Clic",
+    "description": "",
+    "id": "boost-digital-create-new-proposal-social-clic",
+    "keyword": "Feature",
+    "uri": "BoostDigital_CreateNewProposal_SocialClic.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BoostDigital_CreateNewProposal_SocialClic"
+      }
+    ]
+  }
+]
